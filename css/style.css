@@ -1,0 +1,283 @@
+body{
+	color: black;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+
+h2{
+	text-align: center;
+	display: block;
+	font-size: 18pt;
+	font-weight: 600;
+	padding-bottom: 0px;
+}
+/* Navigation */
+nav{
+	width: 100%;
+	height: 50px;
+	background: #515151;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+nav ul{
+	border: solid 0px white;
+	width: 1200px;
+	margin: 0 auto;
+	list-style: none;
+	padding: 0px;
+}
+
+nav ul li{
+	border: solid 0px white;
+	display: inline-block;
+	width: auto;
+	margin-left: 20px;
+	text-align: center;
+	padding: 15px;
+	font-size: 12pt;
+	font-weight: 200;
+}
+
+nav ul li:hover{
+	background: white;
+	color: black;
+}
+
+nav ul a{
+	color: white;
+}
+
+nav ul li a:hover{
+	color: black;
+}
+/* Navigation */
+#socialIcons{
+    position:fixed;
+    
+    width:66px;
+    float: right;
+    height:34px;
+    right:20px;
+    top:10px;
+}
+/* Homepage slider */
+#slider{
+	background-image: url(../images/slider_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 100%;
+    height: 469px;
+
+}
+#title{
+	font-size: 18pt;
+	text-align: center;
+	text-transform: uppercase;
+	color: #515151;
+	margin-top: 50px;
+	padding-top: 100px;
+}
+#title a{
+	text-decoration: none;
+}
+.button{
+	background: #515151;
+	padding: 15px;
+	font-size: 14pt;
+	color: white;	
+}
+/* Homepage slider */
+
+/* Contact Page */
+#mainArea{
+	padding-top: 75px;
+	width: 1100px;
+	color: #515151;
+	margin: 0 auto;
+}
+
+.contact_form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    padding: 0px 30px 20px 30px;
+    font: 12pt;
+    color: #515151;
+}
+.contact_form h1 {
+    display: block; 
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.contact_form input[type="name"], 
+.contact_form input[type="email"], 
+.contact_form textarea{
+    border: solid 1px #515151;
+    color: #515151;
+    height: 30px;
+    margin-left: 20px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    width: 40%;
+}
+
+.contact_form input[type="checkbox"]{
+	border: solid 1px #515151;
+    color: #515151;
+    height: 15px;
+    width: 15px;
+    margin-left: 20px;
+
+}
+
+.contact_form textarea{
+    height:200px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+}
+
+.contact_form input[type="reset"], 
+.contact_form input[type="submit"]{
+	display: inline-block;
+	background: #515151;
+	color: white;
+	padding: 10px;
+	font-weight: 200;
+	font-size: 10pt;
+	margin-top: 30px;
+	margin-left: 20px;
+	border: none;
+
+}
+
+/* Contact Page */
+
+/* Gallery */
+#mainArea2{
+	padding-top: 75px;
+	width: 1100px;
+	color: #515151;
+	margin: 0 auto;
+}
+#sideBar{
+	width: 26%;
+	float: left;
+	padding: 10px;
+}
+
+#mainContent{
+	width:70%;
+	float:right;
+	margin: 0px;
+	padding: 10px;
+}
+
+#project{
+	width: 30%;
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: white;
+	background: #515151;
+	padding: 5px;
+	font-weight: 100;
+	font-size: 12pt;
+}
+/* Gallery */
+/* About */
+
+#about{
+	width: 1100px;
+	padding: 50px;
+	color: #000;
+
+}
+
+#about h2{
+	display: block;
+	margin-top: 50px;
+	color: #515151;
+	font-size: 18pt;
+	font-weight: 600;
+
+}
+
+#about span{
+	font-weight: 500;
+	font-size: 14pt;
+}
+
+#about p{
+	font-size: 12pt;
+	line-height: 30px;
+}
+/* About */
+
+/* Homepage */
+#col1{
+	color: #515151;
+	width: 30%;
+	margin-left: 50px;
+	float: left;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#col2{
+ 	color: #515151;
+	width: 30%;
+	margin-left: 25px;
+	float: left;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#col3{
+	color: #515151;
+	width: 30%;
+	margin-left: 25px;
+	float: left;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.text{
+	color: #000;
+	padding-bottom: 25px;
+}
+.btn{
+	border: solid 1px #515151;
+	padding: 10px;
+	font-size: 10pt;
+	color: #515151;	
+	text-decoration: none;
+
+}
+/* Homepage */
+.clearfix{
+	clear: both;
+}
+footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+	background: #515151;
+	text-align: center;
+	font-size: 10pt;
+	font-weight: 100;
+}
+
+
+
+
+
+
