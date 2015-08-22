@@ -3,20 +3,31 @@
 <head>
 	<title>Contact</title>
 	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/mobileNav.js"></script>
 </head>
 <body>
 	<nav>
+		<div id="mobileNav">
+			<div id="mobileNav">
+				<img id="mob" src="images/mob_nav.png" width="60px">	
+			</div>
+		</div>
 		<ul>
 			<a href="index.html"><li>Home</li></a>
 			<a href="about.html"><li>About</li></a>
 			<a href="portfolio.html"><li>Portfolio</li></a>
-			<a href="contact.html"><li>Contact</li></a>
+			<a href="contact.html"><li>Contact</li></a>	
 		</ul>
+
+		<div id="socialIcons">
+			<a href="https://www.facebook.com/aleksandra.yatsevich" target="_blank" style="float:left;"><img src="images/facebook.jpg"></a>
+			<a href="https://www.linkedin.com/in/aliaksandrahavia" target="_blank" style="float:right;"><img src="images/linkedin.jpg"></a>
+		</div>
+		
 	</nav>
-	<div id="socialIcons">
-		<a href="https://www.facebook.com/aleksandra.yatsevich" target="_blank" style="float:left;"><img src="images/facebook.jpg"></a>
-		<a href="https://www.linkedin.com/in/aliaksandrahavia" target="_blank" style="float:right;"><img src="images/linkedin.jpg"></a>
-	</div>
 
 	<section id="mainArea">
 		<h2>Contact</h2>
@@ -28,12 +39,12 @@
 			<input type="email" placeholder="Type your email"/> 
 			<br>
 			<h1>Subject</h1>
-			<input type="checkbox" name="topic"/>Graphic
-			<input type="checkbox" name="topic"/>Web Development
+			<input type="checkbox" name="topic"/>Graphic<br>
+			<input type="checkbox" name="topic"/>Web Development<br>
 			<input type="checkbox" name="topic"/>iOS Development
 			<br>
 			<h1>Message:</h1>
-			<textarea cols="30" rows="30"></textarea>
+			<textarea cols="10" rows="100"></textarea>
 			<br>
 			<input type="reset" value="RESET"/>
 			<input type="submit" value="SUBMIT"/>
